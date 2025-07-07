@@ -151,7 +151,7 @@ body{
 }
 
 .body-content-code{
-    background-image: url(/TravelBloom/fondo.jpeg);
+    background-image: url(fondo.jpeg);
     margin: 0;
     padding: 0;
     background-size: cover;
