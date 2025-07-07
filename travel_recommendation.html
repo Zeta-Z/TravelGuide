@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="travel.css" />
+    <title>TravelBloom</title>
+  </head>
+  <body>
+    <!-- Header menu var -->
+    <header>
+      <div class="pageTop">
+        <div class="logo-container">
+          <img src="logo.png" alt="Logo Viajes" class="logo" />
+          <span class="travel-sa-text">Travel SA</span>
+        </div>
+        <div class="OptionsHeader">
+          <a href="/TravelBloom/travel_recommendation.html">Home</a>
+          <a href="/TravelBloom/aboutus.html">About Us</a>
+          <a href="/TravelBloom/contactus.html">Contact Us</a>
+        </div>
+        <div id="searchBar-container">
+          <input
+            type="text"
+            id="searchInputId"
+            class="search-input"
+            placeholder="Enter a destination or keyword"
+          />
+          <button type="button" id="searchInputButton" class="search-button" onclick="searchDestinations()">Search</button>
+          <button type="button" class="clear-button" id="clearButton" onclick="clearSearch()">Clear</button>
+        </div>
+      </div>
+    </header>
+    <!-- end of header -->
+     <!-- popup-->
+    <div class="popup" id="resultsPopup"></div>
+    
+    <!-- body -->
+    <div class="body-content-code">
+      <div class="social-icon-container">
+        <ul class="social-icon-list">
+          <li><img src="twit.png" alt="twitter" class="twitter-icon" /></li>
+          <li>
+            <img src="facebook.png" alt="facebook" class="facebook-icon" />
+          </li>
+          <li>
+            <img src="instagram.png" alt="instagram" class="instagram-icon" />
+          </li>
+          <li><img src="youtube.png" alt="youtube" class="youtube-icon" /></li>
+        </ul>
+      </div>
+      <div class="body-container">
+        <h1 class="body-title">Explore Dream Destination!</h1>
+        <p>
+          Dare to explore new destinations and new cultures. The world is a very
+          big place and holds great experiences. Dare to take a step forward and
+          live your life!
+        </p>
+        <button type="button" class="book-now">BOOK NOW</button>
+      </div>
+    </div>
+    <script src="./travel_recommendation.js"></script>
+  </body>
+</html>

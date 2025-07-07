@@ -1,0 +1,108 @@
+[
+  {
+    "id": 1,
+    "name": "Australia",
+    "cities": [
+      {
+        "name": "Sydney, Australia",
+        "imageUrl": "./sydney.jpeg",
+        "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Harbour Bridge."
+      },
+      {
+        "name": "Melbourne, Australia",
+        "imageUrl": "./melbourne.jpg",
+        "description": "Australia’s cultural capital, famous for its art, coffee culture and laneways."
+      },
+      {
+        "name": "Brisbane, Australia",
+        "imageUrl": "./brisbane.jpg",
+        "description": "A sunny, relaxed city located along the Brisbane River with access to the Gold Coast."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Japan",
+    "cities": [
+      {
+        "name": "Tokyo, Japan",
+        "imageUrl": "./tokyo.jpg",
+        "description": "A massive metropolis blending cutting-edge tech with traditional temples and shrines."
+      },
+      {
+        "name": "Kyoto, Japan",
+        "imageUrl": "./kyoto.jpg",
+        "description": "Famous for its classical Buddhist temples, gardens, imperial palaces and geisha culture."
+      },
+      {
+        "name": "Osaka, Japan",
+        "imageUrl": "./osaka.jpg",
+        "description": "Known for modern architecture, nightlife and street food like takoyaki and okonomiyaki."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Italy",
+    "cities": [
+      {
+        "name": "Rome, Italy",
+        "imageUrl": "./rome.jpg",
+        "description": "The historic capital filled with ancient ruins, the Vatican, and Renaissance art."
+      },
+      {
+        "name": "Florence, Italy",
+        "imageUrl": "./florence.jpg",
+        "description": "Birthplace of the Renaissance, home to masterpieces of art and architecture."
+      },
+      {
+        "name": "Venice, Italy",
+        "imageUrl": "./venice.jpg",
+        "description": "A romantic city built on canals, known for its gondolas and historic charm."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Colombia",
+    "cities": [
+      {
+        "name": "Bogota, Colombia",
+        "imageUrl": "./bogota.jpg",
+        "description": "The capital city located high in the Andes, offering rich history and museums."
+      },
+      {
+        "name": "Medellin, Colombia",
+        "imageUrl": "./medellin.jpg",
+        "description": "A modern city known for its innovation, cable cars, and spring-like climate."
+      },
+      {
+        "name": "Cartagena, Colombia",
+        "imageUrl": "./cartagena.jpg",
+        "description": "A colorful Caribbean port city with colonial architecture and vibrant culture."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "France",
+    "cities": [
+      {
+        "name": "Paris, France",
+        "imageUrl": "./paris.jpg",
+        "description": "The romantic capital known for the Eiffel Tower, art museums, and elegant boulevards."
+      },
+      {
+        "name": "Nice, France",
+        "imageUrl": "./nice.jpgg",
+        "description": "A coastal city on the French Riviera, famous for beaches, art and Mediterranean charm."
+      },
+      {
+        "name": "Lyon, France",
+        "imageUrl": "./lyon.jpg",
+        "description": "Known for its cuisine and historical architecture, located at the junction of two rivers."
+      }
+    ]
+  }
+
+]

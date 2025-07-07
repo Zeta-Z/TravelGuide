@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="travel.css" />
+    <title>contact us</title>
+  </head>
+  <body>
+    <!-- Header menu var -->
+    <header>
+      <div class="pageTop">
+        <div class="logo-container">
+          <img src="logo.png" alt="Logo Viajes" class="logo" />
+          <span class="travel-sa-text">Travel SA</span>
+        </div>
+        <div class="OptionsHeader">
+          <a href="/TravelBloom/travel_recommendation.html">Home</a>
+          <a href="/TravelBloom/aboutus.html">About Us</a>
+          <a href="/TravelBloom/contactus.html">Contact Us</a>
+        </div>
+        <div id="searchBar-container">
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Enter a destination or keyword"
+          />
+          <button type="button" id="searchInputButton" class="search-button" onclick="showTravelRecommendations()">Search</button>
+          <button type="button" class="clear-button" id="clearButton" onclick="clearSearch()">Clear</button>
+        </div>
+      </div>
+    </header>
+    <!-- end of header -->
+    <div class="body-content-code">
+      <div class="social-icon-container">
+        <ul class="social-icon-list">
+          <li><img src="twit.png" alt="twitter" class="twitter-icon" /></li>
+          <li>
+            <img src="facebook.png" alt="facebook" class="facebook-icon" />
+          </li>
+          <li>
+            <img src="instagram.png" alt="instagram" class="instagram-icon" />
+          </li>
+          <li><img src="youtube.png" alt="youtube" class="youtube-icon" /></li>
+        </ul>
+      </div>
+      <div class="body-container-contactus">
+        <div class="TextoIzquierda">
+            <h1 class="body-title">CONTACT US</h1>
+            <p>
+            get in touch
+            </p>
+        </div>
+        <div class="textoDerecha">
+        <div class="formDiv">
+            <form class="form">
+                <label for="fname">Name</label><br>
+                <input type="text" id="fname" name="fname" placeholder="Enter your name here"><br>
+                <label for="femail">Email</label><br>
+                <input type="email" id="femail" name="femail" placeholder="Enter your email"><br>
+                <label for="fmessage">Enter your message</label><br>
+                <textarea id="ftextarea" name="ftextarea" rows="5" cols="60" placeholder="Enter your message here"></textarea><br>
+                <button type="button" class="formButton">Submit</button>
+        </div>
+        </div>
+      </div>
+    </div>
+    <script src="./travel_recommendation.js"></script>
+  </body>
+</html>

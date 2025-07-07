@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="travel.css" />
+    <title>TravelBloom</title>
+  </head>
+  <body>
+    <!-- Header menu var -->
+    <header>
+      <div class="pageTop">
+        <div class="logo-container">
+          <img src="logo.png" alt="Logo Viajes" class="logo" />
+          <span class="travel-sa-text">Travel SA</span>
+        </div>
+        <div class="OptionsHeader">
+          <a href="/TravelBloom/travel_recommendation.html">Home</a>
+          <a href="/TravelBloom/aboutus.html">About Us</a>
+          <a href="">Contact Us</a>
+        </div>
+        <div id="searchBar-container">
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Enter a destination or keyword"
+          />
+          <button type="button" id="searchInputButton" class="search-button" onclick="showTravelRecommendations()">Search</button>
+          <button type="button" class="clear-button" id="clearButton" onclick="clearSearch()">Clear</button>
+        </div>
+      </div>
+    </header>
+    <!-- end of header -->
+    <div class="body-content-code">
+      <div class="social-icon-container">
+        <ul class="social-icon-list">
+          <li><img src="twit.png" alt="twitter" class="twitter-icon" /></li>
+          <li>
+            <img src="facebook.png" alt="facebook" class="facebook-icon" />
+          </li>
+          <li>
+            <img src="instagram.png" alt="instagram" class="instagram-icon" />
+          </li>
+          <li><img src="youtube.png" alt="youtube" class="youtube-icon" /></li>
+        </ul>
+      </div>
+      <div class="body-container-aboutus">
+        <h1 class="body-title">ABOUT US!</h1>
+        <p class="about-us-description">
+          En Travel SA, creemos que viajar no es solo moverse de un lugar a
+          otro, sino una forma de descubrir, conectar y transformar. Somos una
+          agencia de viajes comprometida con brindar experiencias únicas y
+          memorables a cada uno de nuestros clientes. Desde escapadas de fin de
+          semana hasta viajes internacionales, diseñamos cada aventura con
+          atención al detalle, calidad y pasión por el servicio. Con más de 5
+          años de experiencia en la industria turística, contamos con un equipo
+          de asesores expertos que te acompañarán en cada etapa del viaje: desde
+          la planificación hasta tu regreso a casa. Trabajamos con aliados
+          estratégicos en todo el mundo para ofrecerte los mejores destinos,
+          precios competitivos y una atención personalizada que se adapta a tus
+          gustos, intereses y presupuesto. Nuestro compromiso es ayudarte a
+          cumplir ese sueño que siempre has tenido: ya sea conocer una nueva
+          cultura, descansar en una playa paradisíaca, o vivir una gran
+          aventura.
+        </p>
+        <div class="our-team-container">
+          <h1 class="our-team-title">Our Team</h1>
+          <div class="card1">
+            <img src="img_avatar.png"  alt="Avatar" style="width: 50px" />
+            <div class="container">
+              <h4><b>John Doe</b></h4>
+              <p>Architect & Engineer</p>
+            </div>
+          </div>
+          <div class="card2">
+            <img src="img_avatar2.png" alt="Avatar" style="width: 50px" />
+            <div class="container">
+              <h4><b>Amy</b></h4>
+              <p>CEO</p>
+            </div>
+            </div>
+            <div class="card3">
+            <img src="img_avatar2.png" alt="Avatar" style="width: 50px" />
+            <div class="container">
+              <h4><b>Luis</b></h4>
+              <p>Engineer</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <script src="./travel_recommendation.js"></script>
+  </body>
+</html>

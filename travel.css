@@ -1,0 +1,338 @@
+/*
+    Header menu CSS
+ */ 
+.pageTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9fb9d1; 
+    padding: 10px 20px;
+       
+}
+
+.pageTop a{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.pageTop input[type=text]{
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+    width: 250px;
+    min-width: 200px;
+}
+
+
+.logo-container {
+    display: flex; /* Usa flexbox para alinear el logo y el texto */
+    align-items: center; /* Centra verticalmente */
+    gap: 10px; /* Espacio entre el logo y el texto "Travel SA" */
+}
+
+.logo {
+    /* text-align: left; */ /* No necesario si el contenedor es flex */
+    width: 40px; /* Ajusta el tamaño de la imagen del logo. Podrías necesitar un max-width también. */
+    max-width: 60px; /* Ejemplo de tamaño máximo para el logo, ajusta según tu imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+/* Estilo para el texto "Travel SA" */
+.travel-sa-text {
+    color: rgb(255, 255, 255); /* Mismo color que los enlaces */
+    font-size: 17px; /* Mismo tamaño de fuente que los enlaces */
+    white-space: nowrap; /* Evita que el texto se rompa en varias líneas */
+}
+
+
+/*
+    Searchbar menu CSS
+ */ 
+#searchBar-container{
+    text-align: right;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    width: fit-content;
+}
+
+.search-button,
+.clear-button {
+  padding: 8px 12px;
+  border: 1px solid #999;
+  border-radius: 3px;
+  background-color: #12968b;
+  cursor: pointer;
+  margin-left: 5px; /* Espacio entre los botones si es necesario */
+  color:white
+
+}
+
+.search-input::placeholder{
+    color: #12968b;
+}
+
+.clear-button {
+  margin-left: 5px; /* Asegura espacio entre los botones */
+}
+
+
+
+a{
+    text-decoration: none;
+    color:#ffffff
+}
+
+
+
+
+/*
+    Body menu CSS
+ */ 
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.book-now{
+    padding: 8px 12px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    background-color: #12968b;
+    cursor: pointer;
+    color:white
+}
+
+.social-icon-container{
+    /*background-color: black;*/ 
+    width: 200px;
+    padding-top: 500px;
+}
+
+.twitter-icon, .facebook-icon, .instagram-icon, .youtube-icon{
+    width: 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.body-content-code{
+    display: flex;
+    justify-content:start ;
+    
+}
+
+.body-container{
+    padding-left: 15px;
+    padding-top: 200px;
+}
+
+.body-container h1, p{
+    color: #ffffff;
+}
+
+.body-container h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.body-container p{
+    font-size: 25px;
+    width: 600px;
+    text-align: justify;
+}
+
+.body-content-code{
+    background-image: url(/TravelBloom/fondo.jpeg);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 91.4vh;
+}
+
+/*
+    ABOUT US PAGE CSS - body
+ */ 
+
+ .body-container-aboutus{
+    padding-left: 15px;
+    padding-top: 200px;
+ }
+
+ .body-container-aboutus h1, p{
+    color: white;
+ }
+
+ .body-container-aboutus h1{
+    font-size: 50px;
+ }
+
+ .body-container-aboutus p{
+    font-size: 15px;
+    text-align: justify;
+    width: 500px;
+ }
+
+ .our-team-container{
+    display: flex;
+    justify-content: start;
+ }
+
+ .card1{
+    background-color: rgba(0, 0, 0, 0.356);
+    width: 200px;
+    padding-left: 50px;
+    border-radius: 5% ;
+ }
+
+ .card1 h4, p{
+    color:white;
+ }
+ .card2{
+    background-color: rgba(0, 0, 0, 0.356);
+    width: 200px;
+    padding-left: 50px;
+    border-radius: 5% ;
+ }
+ .card2 h4, p{
+    color:white;
+ }
+  .card3{
+    background-color: rgba(0, 0, 0, 0.356);
+    width: 200px;
+    padding-left: 50px;
+    border-radius: 5% ;
+ }
+ .card3 h4, p{
+    color:white;
+ }
+ .our-team-title{
+    padding-right: 20px
+ }
+
+
+ /*
+    CONTACT US PAGE CSS - body
+ */ 
+
+
+
+ .form label{
+    color: white;
+ }
+
+  .body-container-contactus{
+    padding-left: 15px;
+    padding-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    gap: 50px;
+ }
+
+  .body-container-contactus h1{
+    color: white;
+    font-size: 36px;
+    margin-bottom: 10px;
+ }
+
+   .body-container-contactus p{
+    font-size: 18px;
+ }
+
+
+ .TextoIzquierda{
+    max-width: 400px;
+ }
+
+.formDiv{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+    
+}
+
+.formDiv label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.formDiv input, 
+.formdiv textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.formDiv textarea{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.formDiv input[type=text]{
+    color: white;
+}
+
+.formDiv input[type=email]{
+    color: white;
+}
+
+.formDiv textarea{
+    color: white;
+}
+
+.textoDerecha{
+    padding-left: 450px;
+}
+
+.formButton{
+    width: 520px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    background-color: #12968b;
+    cursor: pointer;
+    margin-left: 5px; /* Espacio entre los botones si es necesario */
+    color:white
+}
+
+
+ /*
+    POPUP
+ */
+
+ .popup {
+      position: absolute;
+      top: 120px;
+      left: 1050px;
+      background: rgba(0,0,0,0.8);
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 200px;
+      display: none;
+      
+    }
+
+.result {
+    margin-bottom: 20px;
+}
+.result img {
+    width: 100%;
+    border-radius: 8px;
+}
+
